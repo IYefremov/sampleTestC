@@ -17,9 +17,9 @@ public class Calculator {
         return a * b;
     }
 
-    public double division(int a, int b) {
+    public int division(int a, int b) {
 
-            return (double) a / b;
+            return  a / b;
 
     }
     public int substraction(int a, int b) {
@@ -27,9 +27,9 @@ public class Calculator {
         return a - b;
     }
 
-    public int squareRoot(int a) {
+    public double squareRoot(int a) {
 
-        return (int) Math.sqrt(a) ;
+            return   Math.sqrt(a) ;
     }
 
     public int xX (int a){
