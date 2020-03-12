@@ -49,6 +49,7 @@ public class AddTwoValuesTests {
         int first = 10;
         int second = 5;
         int expected = 50;
+        
         assertEquals(String.format("%s * %s = %s", first, second, expected), expected, calc.multiply(first, second));
     }
 
